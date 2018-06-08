@@ -1,0 +1,36 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true,
+        "jasmine": true,
+        "mocha": true
+    },
+    "plugins": ["jasmine"],
+    "extends": ["eslint:recommended", "plugin:jasmine/recommended"],
+    "globals": {
+        "assert": false
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 6
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}
