@@ -38,7 +38,7 @@ describe('data', () => {
 
     describe('user.stats para el primer usuario en data de prueba - ver carpeta data/', () => {
 
-      const processed = computeUsersStats(users, progress, courses);
+      // const processed = computeUsersStats(users, progress, courses);
 
       it(
         'debería tener propiedad percent con valor 53',
