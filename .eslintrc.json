@@ -3,17 +3,15 @@
         "browser": true,
         "es6": true,
         "node": true,
-        "jasmine": true,
         "mocha": true
     },
-    "plugins": ["jasmine"],
-    "extends": ["eslint:recommended", "plugin:jasmine/recommended"],
-    "globals": {
-        "assert": false
-    },
+    "extends": "eslint:recommended",
     "parserOptions": {
         "sourceType": "module",
         "ecmaVersion": 6
+    },
+    "globals": {
+        "assert": false
     },
     "rules": {
         "indent": [
