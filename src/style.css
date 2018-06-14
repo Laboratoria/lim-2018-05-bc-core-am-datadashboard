@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* ESTILOS DE LOGGING IN */
+body {
+  background: #f0efef;
+}
+
+#logging {
+  display:none;
+}
+
+.newTab {
+  display: none;
+}
+
+#logging:checked ~ .newTab {
+  display: block;
+}
+
+.loggingIn {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+  margin: 6% 28% 5%;
+  padding: 0px 50px 50px;
+  width: 40%;
+  max-width: 450px; /* Ancho del fomulario */
+  height: 150%;
+
+}
+
+img {
+  width: 100%;
+  margin: auto; /* centra la imagen */
+  display: block; /* quita el display en linea */
+}
+
+.inputGroup {
+  margin-bottom: 32px;
+}
+
+/* label */
+.user, .password {
+  color: gray;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  position: absolute; 
+  line-height: 145%;
+}
+
+.user {
+  top: 46.5%;
+}
+.user:active, .user:focus {
+  top: 41.5%;
+  font-size: 14px;
+  color: rgb(236, 68, 147);
+}
+
+.password {
+  top: 60%;
+}
+.password:active, .password:focus {
+  top: 55%;
+  font-size: 14px;
+  color: rgb(236, 68, 147);
+}
+
+/* input */
+#user, #password {
+  font-family: 'Montserrat', sans-serif;
+  border: 0;
+  border-bottom: 3px solid #eede00;
+  background: none;
+  color: #000;
+  display: block;
+  font-size: 19px; 
+  line-height: 145%;
+  text-align: start;
+  padding: 12px 0 14px;
+  position: relative;
+  width: 100%; 
+}
+
+#user {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+#password {
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+#user:hover, #password:hover {
+  border-bottom: 3px solid #d48e0c;
+}
+
+#user:focus, #user:active, #password:focus, #password:active {
+  border-bottom: 3px solid rgb(236, 68, 147);
+}
+
+/* boton comentado */
+.logging {
+  background-color: #ffc107;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%; 
+  font-weight: bold;
+  margin-top: 10%;
+  padding: 4%;
+  transition: .2s;
+  text-align: center;
+  width: 35%;
+}
+
+.logging:hover {
+  background-color: #ffa91e;
+  padding-top: 3.8%;
+  padding-bottom: 4.2%;
+}
