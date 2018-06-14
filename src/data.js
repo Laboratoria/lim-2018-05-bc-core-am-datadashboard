@@ -15,5 +15,5 @@ function getusers(){
 function handlerror(){
     console.log("Hay un error");
 }
-cohort.addEventListener("click",getcohort);
+cohort.addEventListener("click",getcohort); 
 
