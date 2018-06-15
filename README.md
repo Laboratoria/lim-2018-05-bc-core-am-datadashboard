@@ -14,11 +14,11 @@ identificar patrones y correlaciones.
 Para el desarrollo del primer sprint realizamos un sprint plan en modelo Kanban para determinar las tareas 
 ha realizar en este periodo.
 
-![Tablero Kanban](Imágenes/kanban.jpg)
+![Tablero Kanban](Pictures/kanban.jpg)
 
 Tambien usamos trello para tener un formato digital de nuestras tareas
 
-![Tablero Trello](Imágenes/trello.png)
+![Tablero Trello](Pictures/trello.png)
 
 Por lo que en este primer sprint hemos logrado tener prototippo en papel, ademas acceder a la pagina por medio de un logging y obtener los datos del json y mostrar los cohorts en pantalla
 
@@ -62,11 +62,11 @@ Respecto a la información recaudada en cuanto a lo que el usuario espera del pr
 ha realizouado prototipos en papel que posteriormente con la entrevista al usuario se 
 modificara o mejorara en un prototipo de alta fidelidad.
 
-![Prototipo papel logging y sedes](Imágenes/maq1.jpg)
+![Prototipo papel logging y sedes](Pictures/maq1.jpg)
 
-![Prototipo papel cohorts y data general](Imágenes/maq2.jpg)
+![Prototipo papel cohorts y data general](Pictures/maq2.jpg)
 
-![Prototipo papel Estudiantes](Imágenes/maq3.jpg)
+![Prototipo papel Estudiantes](Pictures/maq3.jpg)
 
 #### Prototipo de alta fidelidad
 
