@@ -1,19 +1,31 @@
-
 var cohort = document.getElementById("Lima");
-function getcohort(){
-  var xhr = new XMLHttpRequest();
-  console.log(xhr);
-  xhr.open("GET","http://127.0.0.1:8080/data/cohorts.json");
-  xhr.onload = getusers;
-  xhr.onerror = handlerror;
-  xhr.send();
-}
+var list = document.getElementById("listaCohorts");
 
-function getusers(){
-    console.log (this.responseText);
+const  getcohort =() =>{	
+  	var xhr = new XMLHttpRequest();
+	//console.log(xhr);	
+    xhr.open("GET", "../data/cohorts.json");
+    xhr.onload = getusers;
+   	xhr.onerror = handlerror;	
+    xhr.send();
 }
-function handlerror(){
-    console.log("Hay un error");
-}
-cohort.addEventListener("click",getcohort);
-
+const getusers = (event) =>{
+    	let data = JSON.parse(event.target.responseText);
+    	console.log(data);
+    		data.forEach(curso => {
+    			var lista = document.createElement('li');
+    			lista.value =curso.id;
+    			lista.innerHTML = curso.id;
+    			list.appendChild(lista);
+    			}); 		
+    }
+    
+    const handlerror =() =>{
+    		console.log("Hay un error");
+    }
+        
+    cohort.addEventListener('click',(event)=>{
+    
+    	event.preventDefault();
+    	getcohort();       
+     });
