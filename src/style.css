@@ -1,22 +1,11 @@
+/* ESTILOS DE LOGGING IN */
 * {
   margin: 0;
   padding: 0;
 }
-/* ESTILOS DE LOGGING IN */
+
 body {
   background: #f0efef;
-}
-
-#logging {
-  display:none;
-}
-
-.newTab {
-  display: none;
-}
-
-#logging:checked ~ .newTab {
-  display: block;
 }
 
 .loggingIn {
@@ -28,7 +17,7 @@ body {
   width: 40%;
   max-width: 450px; /* Ancho del fomulario */
   height: 150%;
-
+  z-index: 1;
 }
 
 img {
@@ -90,7 +79,7 @@ img {
 }
 
 #password {
-  font-weight: bold;
+  font-weight: 300;
   letter-spacing: 3px;
 }
 
@@ -99,7 +88,7 @@ img {
 }
 
 #user:focus, #user:active, #password:focus, #password:active {
-  border-bottom: 3px solid rgb(236, 68, 147);
+  border-bottom: 3px solid rgb(0, 0, 0);
 }
 
 /* boton */
@@ -117,11 +106,20 @@ img {
   padding: 4%;
   transition: .2s;
   text-align: center;
-  width: 35%;
+  width: 40%;
 }
 
 .logging:hover {
   background-color: #ffa91e;
-  /* padding-top: 3.8%;
-  padding-bottom: 4.2%; */
+}
+
+.newTab {
+  z-index: 2;
+}
+
+.hide {
+  display: none;
+}
+.show {
+    display: block;
 }

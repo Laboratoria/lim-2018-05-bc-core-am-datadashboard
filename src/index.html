@@ -11,32 +11,23 @@
 </head>
 
 <body>
-  <form class="loggingIn" action="">
+  <form class="loggingIn show" id="loggingIn">
     <img src="https://cdn-images-1.medium.com/max/1600/1*3ebT5azEfTrKxANOE3BwyA.jpeg" alt="">
     <div class="inputGroup">
-      <input id="user" type="email" autocomplete="email">
-      <label class="user" for="user">Usuario</label>
+      <input id="user" type="text" autocomplete="email" placeholder="Usuario">
+      <!-- <label class="user" for="user">Usuario</label> -->
     </div>
     <div class="inputGroup">
-      <input id="password" type="password">
-      <label class="password" for="password">Contraseña</label>
+      <input id="password" type="password" placeholder="Contraseña">
+      <!-- <label class="password" for="password">Contraseña</label> -->
     </div>
-    <!-- <button id="logging" type="button">INICIAR SESIÓN</button> -->
-    <input id="logging" type="radio">
-    <label class="logging" for="logging">INICIAR SESIÓN</label>
+    <button class="logging" id="logging" type="button">INICIAR SESIÓN</button>
   </form>
-  <select class="newTab">
-    <option value="opt1">SEDES DE LABORATORIA</option>
-    <option value="opt2">LIMA</option>
-    <option value="opt3">MEXICO</option>
-    <option value="opt3">CHILE</option>
-  </select>
   <div>
-    <a href="#" id= "Lima" class="button">Lim-2018</a>
+    <a href="#" id="newTab" class="newTab hide">Lim-2018</a>
   </div>
   <script src="main.js"></script>
   <script src="data.js"></script>
 </body>
 
 </html>
-
