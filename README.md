@@ -1,6 +1,42 @@
 # Data Dashboard
 
-## Preámbulo
+## Cómo nació la idea
+
+En Laboratoria tienen la necesidad
+
+La pareja que conforma este trabajo:
++ Kalu Guzmán
++ Karina Niebles 
+
+
+## ¿Cuál fue el proceso?
+
+Las Training Manager de Laboratoria necesitan **ordenar, filtrar y agrupar** a las alumnas de acuerdo al cohort al que pertenecen, turno y squad, tambien hacer un mejor control sobre nuestro avance en las lecturas no obligatorias, para ello es necesario implementar una plataforma donde ellas reciban la data ya procesada.
+
+## Detalles del proceso
+
+### Quiénes son los principales usuarios de producto.
+
+### Cuáles son los objetivos de estos usuarios en relación con el producto.
+
+### Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué
+
+### Cómo los descubriste.
+
+### Cuándo revisan normalmente estos datos los usuarios.
+
+### Cómo crees que el producto les está resolviendo sus problemas.
+
+### Cómo fue tu proceso de diseño.
+
+==============
+
+## Que necesitamos para este proyecto 
+
++ Uso de API DE LABORATORIA
++ Implementacion de graficos en la aplicacion web 
++ Desarrollo de prototipos en SIGMA
+
 
 En Laboratoria, las Training Managers (TMs) hacen un gran trabajo al analizar la
 mayor cantidad de datos posibles respecto al progreso de las estudiantes para
