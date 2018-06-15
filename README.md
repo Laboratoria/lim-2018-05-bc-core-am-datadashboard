@@ -18,7 +18,7 @@ ha realizar en este periodo.
 
 Tambien usamos trello para tener un formato digital de nuestras tareas
 
-![Tablero Trello](Pictures/trello.png)
+![Tablero Trello](http://thumbs.subefotos.com/b1235aebacdc157ca980acb0dc4fa844o.jpg)
 
 Por lo que en este primer sprint hemos logrado tener prototippo en papel, ademas acceder a la pagina por medio de un logging y obtener los datos del json y mostrar los cohorts en pantalla
 
@@ -62,11 +62,11 @@ Respecto a la información recaudada en cuanto a lo que el usuario espera del pr
 ha realizouado prototipos en papel que posteriormente con la entrevista al usuario se 
 modificara o mejorara en un prototipo de alta fidelidad.
 
-![Prototipo papel logging y sedes](Pictures/maq1.jpg)
+![Prototipo papel logging y sedes](http://thumbs.subefotos.com/bb72bd564e90a192aeb24860681d43b7o.jpg)
 
-![Prototipo papel cohorts y data general](Pictures/maq2.jpg)
+![Prototipo papel cohorts y data general](http://thumbs.subefotos.com/b685740943938dfc8d065e572961d972o.jpg)
 
-![Prototipo papel Estudiantes](Pictures/maq3.jpg)
+![Prototipo papel Estudiantes](http://thumbs.subefotos.com/c2bc8ac3fa7920efcabcab3a1b3d209fo.jpg)
 
 #### Prototipo de alta fidelidad
 
