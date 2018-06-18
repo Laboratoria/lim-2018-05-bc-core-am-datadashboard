@@ -1,4 +1,4 @@
-var cohort = document.getElementById("Lima");
+var cohort = document.getElementById("newTab");
 var list = document.getElementById("listaCohorts");
 
 const getcohort = () => {
