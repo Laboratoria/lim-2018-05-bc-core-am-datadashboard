@@ -1,9 +1,10 @@
-var cohort = document.getElementById("newTab");
-var list = document.getElementById("listaCohorts");
+const cohort = document.getElementById("newTab");
+const list = document.getElementById("listaCohorts");
 
 const getcohort = () => {
-  var xhr = new XMLHttpRequest();
+  let xhr = new XMLHttpRequest();
   //console.log(xhr);	
+
   xhr.open("GET", "../data/cohorts.json");
   xhr.onload = getusers;
   xhr.onerror = handlerror;
@@ -19,13 +20,10 @@ const getusers = (event) => {
     list.appendChild(lista);
   });
 }
+const handlerror = () => alert("Hay un error");
 
-const handlerror = () => {
-  console.log("Hay un error");
-}
 
-cohort.addEventListener('click', (event) => {
-
-  event.preventDefault();
-  getcohort();
-});
+//cohort.addEventListener('click', (event) => {
+ // event.preventDefault();
+ // getcohort();
+//});
