@@ -3,6 +3,8 @@ const list = document.getElementById("listaCohorts");
 
 const getcohort = () => {
   let xhr = new XMLHttpRequest();
+  //console.log(xhr);	
+
   xhr.open("GET", "../data/cohorts.json");
   xhr.onload = getusers;
   xhr.onerror = handlerror;
@@ -18,9 +20,8 @@ const getusers = (event) => {
     list.appendChild(lista);
   });
 }
-const handlerror = () => {
-  console.log("Hay un error");
-}
+const handlerror = () => alert("Hay un error");
+
 
 //cohort.addEventListener('click', (event) => {
  // event.preventDefault();

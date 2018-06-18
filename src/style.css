@@ -35,26 +35,15 @@ img {
   color: gray;
   font-family: 'Montserrat', sans-serif;
   font-size: 19px;
-  position: absolute; 
   line-height: 145%;
 }
 
 .user {
-  top: 46.5%;
-}
-.user:active, .user:focus {
-  top: 41.5%;
-  font-size: 14px;
-  color: rgb(236, 68, 147);
+  top: 49.5%;
 }
 
 .password {
-  top: 60%;
-}
-.password:active, .password:focus {
-  top: 55%;
-  font-size: 14px;
-  color: rgb(236, 68, 147);
+  top: 66.6%;
 }
 
 /* input */
@@ -79,7 +68,7 @@ img {
 }
 
 #password {
-  font-weight: 300;
+  font-weight: bold;
   letter-spacing: 3px;
 }
 
@@ -117,6 +106,7 @@ img {
   z-index: 2;
 }
 
+/* tabs */
 .hide {
   display: none;
 }
