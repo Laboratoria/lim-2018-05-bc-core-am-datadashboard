@@ -35,26 +35,15 @@ img {
   color: gray;
   font-family: 'Montserrat', sans-serif;
   font-size: 19px;
-  position: sticky; 
   line-height: 145%;
 }
 
 .user {
   top: 49.5%;
 }
-.user:active, .user:focus {
-  top: 41.5%;
-  font-size: 14px;
-  color: rgb(236, 68, 147);
-}
 
 .password {
   top: 66.6%;
-}
-.password:active, .password:focus {
-  top: 55%;
-  font-size: 14px;
-  color: rgb(236, 68, 147);
 }
 
 /* input */
