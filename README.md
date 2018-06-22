@@ -14,11 +14,11 @@ identificar patrones y correlaciones.
 Para el desarrollo del primer sprint realizamos un sprint plan en modelo Kanban para determinar las tareas 
 ha realizar en este periodo.
 
-![Tablero Kanban](http://thumbs.subefotos.com/0239f4f57a7dd25c76647a9aae98aa2eo.jpg)
+![Tablero Kanban](https://preview.ibb.co/i1bqeo/kanban.jpg)
 
 Tambien usamos trello para tener un formato digital de nuestras tareas
 
-![Tablero Trello](http://thumbs.subefotos.com/b1235aebacdc157ca980acb0dc4fa844o.jpg)
+![Tablero Trello](https://preview.ibb.co/fNnfeo/trello.png)
 
 Por lo que en este primer sprint hemos logrado tener prototippo en papel, ademas acceder a la pagina por medio de un logging y obtener los datos del json y mostrar los cohorts en pantalla
 
@@ -62,11 +62,23 @@ Respecto a la información recaudada en cuanto a lo que el usuario espera del pr
 ha realizouado prototipos en papel que posteriormente con la entrevista al usuario se 
 modificara o mejorara en un prototipo de alta fidelidad.
 
-![Prototipo papel logging y sedes](http://thumbs.subefotos.com/bb72bd564e90a192aeb24860681d43b7o.jpg)
+![Prototipo papel logging y sedes](https://preview.ibb.co/jHNrkT/maq1.jpg)
 
-![Prototipo papel cohorts y data general](http://thumbs.subefotos.com/b685740943938dfc8d065e572961d972o.jpg)
+![Prototipo papel cohorts y data general](<https://preview.ibb.co/jhFNs8/maq2.jpg)
 
-![Prototipo papel Estudiantes](http://thumbs.subefotos.com/c2bc8ac3fa7920efcabcab3a1b3d209fo.jpg)
+![Prototipo papel Estudiantes](<https://preview.ibb.co/msWgKo/maq3.jpg)
+
+Después del prototipo de papel se hizo cambios para mejorar el diseño.
+
+![Diseño ventana 1](https://preview.ibb.co/fQiYX8/parte_1.jpg)
+
+![Diseño ventana 2](https://preview.ibb.co/fEh2s8/parte_2.jpg)
+
+![Diseño ventana 3](https://preview.ibb.co/fKiQC8/parte_3.jpg)
+
+![Diseño ventana 4](https://preview.ibb.co/fAmOzo/parte_4.jpg)
+
+![Diseño ventana 5](https://preview.ibb.co/gmfcQT/parte_5.jpg)
 
 #### Prototipo de alta fidelidad
 

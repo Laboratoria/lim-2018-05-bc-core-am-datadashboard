@@ -159,10 +159,12 @@ img {
 }
 
 /* LISTA DE COHORTS */
-aside {
+.newTab {
   background-color: rgba(0, 0, 0, 0.7);
-  width: 20%;
-  height: 655px;
+  width: 30%;
+  height: 1420px;
+  font-size: 10px;
+  float: left;
 }
 aside a {
   text-decoration: none;
@@ -176,4 +178,14 @@ aside a {
 aside a:hover {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+}
+.list-student {
+  float: right;
+  background-color: rgba(0, 0, 0, 0.12);
+  margin-right: 25%;
+}
+.student {
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+
 }
