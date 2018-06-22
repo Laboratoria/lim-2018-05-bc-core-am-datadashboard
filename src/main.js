@@ -1,11 +1,11 @@
-// funcion para ocultar logging y mostrar formulario
-let btnLogging = document.getElementById('logging');
-let loggingIn = document.getElementById('loggingIn');
-let laboratoria1 = document.getElementById('laboratoria1');
-let laboratoriaBar = document.getElementById('laboratoriaBar');
-let btnLima = document.getElementById('lima');
-let laboratoria2 = document.getElementById('laboratoria2');
-let navigatingBar = document.getElementById('navigatingBar');
+// funciones para ocultar login y mostrar otras páginas 
+const btnLogging = document.getElementById('logging');
+const loggingIn = document.getElementById('loggingIn');
+const laboratoria1 = document.getElementById('laboratoria1');
+const laboratoriaBar = document.getElementById('laboratoriaBar');
+const btnLima = document.getElementById('lima');
+const laboratoria2 = document.getElementById('laboratoria2');
+const navigatingBar = document.getElementById('navigatingBar');
 
 btnLogging.addEventListener('click', function(){
   loggingIn.classList.replace('show', 'hide');
