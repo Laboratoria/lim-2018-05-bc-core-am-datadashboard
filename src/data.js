@@ -1,4 +1,4 @@
-const cohort = document.getElementById("newTab");
+const cohort = document.getElementById("laboratoria2");
 const list = document.getElementById("listaCohorts");
 
 const getcohort = () => {
@@ -21,9 +21,3 @@ const getusers = (event) => {
   });
 }
 const handlerror = () => alert("Hay un error");
-
-
-//cohort.addEventListener('click', (event) => {
- // event.preventDefault();
- // getcohort();
-//});
