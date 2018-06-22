@@ -12,7 +12,7 @@
 
 <body>
   <!-- Logging in -->
-  <form class="loggingIn show" id="loggingIn" name= "form">
+  <form class="loggingIn show" id="loggingIn" name="form">
     <img src="https://cdn-images-1.medium.com/max/1600/1*3ebT5azEfTrKxANOE3BwyA.jpeg" alt="">
     <div class="inputGroup">
       <label class="user" for="user">Usuario</label>
@@ -24,39 +24,41 @@
     </div>
     <button class="logging" id="logging" type="button">INICIAR SESIÓN</button>
   </form>
-   <!-- pagina de bienvenida -->
-   <section class="laborattoria1" id="laboratoria1">
-      <header class="laboratoriaBar hide" id="laboratoriaBar">
-        <img class="logo" src="https://preview.ibb.co/doqLs8/Laboratoria_RGB_logo_01.png" alt="Laboratoria_RGB_logo_01">
-      </header>
-      <section class="navigatingBar hide" id="navigatingBar">
+  <!-- pagina de bienvenida -->
+  <section class="laborattoria1" id="laboratoria1">
+    <header class="laboratoriaBar hide" id="laboratoriaBar">
+      <img class="logo" src="https://preview.ibb.co/doqLs8/Laboratoria_RGB_logo_01.png" alt="Laboratoria_RGB_logo_01">
+    </header>
+    <section class="navigatingBar hide" id="navigatingBar">
 
-        <ul>
-          <li class="place show" id="newTab">LIMA</li>
-          <li class="place">SANTIAGO</li>
-          <li class="place">CDMX</li>
-          <li class="place">GUADALAJARA</li>
-          <li class="place">SAO PAULO</li>
-        </ul>
-      </section>
+      <ul>
+        <li class="place show" id="newTab">LIMA</li>
+        <li class="place">SANTIAGO</li>
+        <li class="place">CDMX</li>
+        <li class="place">GUADALAJARA</li>
+        <li class="place">SAO PAULO</li>
+      </ul>
     </section>
-    <!-- lista de cohorts -->
-    <aside id="laboratoria2" class="newTab hide">
-        <div>
-          <ul id="listaCohorts"></ul>
-        </div>
-      </aside>
-      <div>
-          <ul id="usuarios"></ul>
-      </div>
-      <div>
-         
-        <div id="example"></ul>
-          
-      </div>
+  </section>
+  <!-- lista de cohorts -->
+  <aside id="laboratoria2" class="newTab hide">
+    <div>
+      <ul id="listaCohorts"></ul>
+    </div>
+  </aside>
+  <!-- lista de estudiantes -->
+  <div class="list-student">
+    <ul id="usuarios" class='student'></ul>
+  </div>
 
-  <script src="data.js"></script>
-  <script src="main.js"></script>
+  <div>
+    <div id="example">
+      </ul>
+    </div>
+    <div id='progress' class='progress'></div>
+
+    <script src="data.js"></script>
+    <script src="main.js"></script>
 
 </body>
 
