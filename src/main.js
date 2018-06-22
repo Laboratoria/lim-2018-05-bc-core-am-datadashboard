@@ -40,7 +40,7 @@ cohort.addEventListener('click', (event) => {
       a.innerHTML = group.id;
       lista.appendChild(a);
       list.appendChild(lista);
-      const liuser = document.getElementById('aqp-2018-03-jp-core-talento')
+      const liuser = document.getElementById('lim-2018-03-pre-core-pw')
       addEventToCohortElem(liuser);
     };
   });
