@@ -14,7 +14,7 @@ identificar patrones y correlaciones.
 Para el desarrollo del primer sprint realizamos un sprint plan en modelo Kanban para determinar las tareas 
 ha realizar en este periodo.
 
-![Tablero Kanban](http://thumbs.subefotos.com/0239f4f57a7dd25c76647a9aae98aa2eo.jpg)
+![Tablero Kanban](https://preview.ibb.co/i1bqeo/kanban.jpg)
 
 Tambien usamos trello para tener un formato digital de nuestras tareas
 
