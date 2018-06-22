@@ -5,34 +5,34 @@
   <meta charset="utf-8">
   <title>Data Dashboard</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9R__NpeV0GkGFFguIQxWPJeRMRXE9ZU8tmYQSnVKsIjVgQcpb" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans:400,800" rel="stylesheet">
+  <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9R__NpeV0GkGFFguIQxWPJeRMRXE9ZU8tmYQSnVKsIjVgQcpb"
+    type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700,900" rel="stylesheet">
 </head>
 
 <body>
-  <!-- Login -->
-  <form class="loggingIn show" id="loggingIn">
+  <!-- Logging in -->
+  <form class="loggingIn show" id="loggingIn" name="form">
     <img src="https://cdn-images-1.medium.com/max/1600/1*3ebT5azEfTrKxANOE3BwyA.jpeg" alt="">
     <div class="inputGroup">
       <label class="user" for="user">Usuario</label>
-      <input id="user" type="text" autocomplete="email">
+      <input id="user" type="text" autocomplete="email" name="user">
     </div>
     <div class="inputGroup">
       <label class="password" for="password">Contraseña</label>
-      <input id="password" type="password">
+      <input id="password" type="password" name="password">
     </div>
     <button class="logging" id="logging" type="button">INICIAR SESIÓN</button>
   </form>
-
   <!-- pagina de bienvenida -->
   <section class="laborattoria1" id="laboratoria1">
     <header class="laboratoriaBar hide" id="laboratoriaBar">
-      
       <img class="logo" src="https://preview.ibb.co/doqLs8/Laboratoria_RGB_logo_01.png" alt="Laboratoria_RGB_logo_01">
     </header>
     <section class="navigatingBar hide" id="navigatingBar">
+
       <ul>
-        <li class="place show" id="lima">LIMA</li>
+        <li class="place show" id="newTab">LIMA</li>
         <li class="place">SANTIAGO</li>
         <li class="place">CDMX</li>
         <li class="place">GUADALAJARA</li>
@@ -40,16 +40,25 @@
       </ul>
     </section>
   </section>
-
   <!-- lista de cohorts -->
   <aside id="laboratoria2" class="newTab hide">
     <div>
-      <a href="#">Lim-2018</a>
       <ul id="listaCohorts"></ul>
     </div>
   </aside>
-  <script src="data.js"></script>
-  <script src="main.js"></script>
+  <!-- lista de estudiantes -->
+  <div class="list-student">
+    <ul id="usuarios" class='student'></ul>
+  </div>
+
+  <div>
+    <div id="example">
+      </ul>
+    </div>
+    <div id='progress' class='progress'></div>
+
+    <script src="data.js"></script>
+    <script src="main.js"></script>
 
 </body>
 
