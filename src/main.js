@@ -12,7 +12,7 @@ btnLogging.addEventListener('click', function () {
     navigatingBar.classList.replace('hide', 'show');
     laboratoria2.classList.replace('hide', 'show');
   } else {
-    alert("Porfavor ingrese, nombre de usuario y contraseña correctos.");
+    alert("Por favor ingrese el nombre de usuario y la contraseña correcta.");
   }
 });
 
