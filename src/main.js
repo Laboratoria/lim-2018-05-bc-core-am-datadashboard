@@ -1,10 +1,7 @@
-
-// funcion para ocultar logging y mostrar formulario
+//Oculta logging y muestra formulario
 const btnLogging = document.getElementById('logging');
 const laboratoria1 = document.getElementById('laboratoria1');
 const laboratoriaBar = document.getElementById('laboratoriaBar');
-const btnLima = document.getElementById('lima');
-
 btnLogging.addEventListener('click', function () {
   const laboratoria2 = document.getElementById('laboratoriaBar');
   const navigatingBar = document.getElementById('navigatingBar');
@@ -14,7 +11,7 @@ btnLogging.addEventListener('click', function () {
     navigatingBar.classList.replace('hide', 'show');
     laboratoria2.classList.replace('hide', 'show');
   } else {
-    alert("Porfavor ingrese, nombre de usuario y contraseña correctos.");
+    alert("Por favor ingrese el nombre de usuario y la contraseña correcta.");
   }
 });
 //Mostrar lista de cohorts dando click en boton
@@ -26,7 +23,6 @@ cohort.addEventListener('click', (event) => {
     const laboratoria2 = document.getElementById('laboratoria2');
     laboratoria2.classList.replace('hide', 'show');
     navigatingBar.classList.replace('show', 'hide');
-    laboratoria2.classList.replace('hide', 'show');
     for (const group of getCohorts()) {
       const list = document.getElementById("listaCohorts");
       const a = document.createElement('a');
@@ -58,7 +54,6 @@ window.addEventToCohortElem = (elem) => {
         addEventToUserElem(a);
       }
     })
-
   })
 };
 
