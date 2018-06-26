@@ -25,42 +25,42 @@
     <button class="logging" id="logging" type="button">INICIAR SESIÓN</button>
   </form>
   <!-- pagina de bienvenida -->
-  <section class="laborattoria1" id="laboratoria1">
+  <section class="laboratoria1" id="laboratoria1">
     <header class="laboratoriaBar hide" id="laboratoriaBar">
       <h2 id="welcome" class="welcome">User</h2>
       <img class="logo" src="https://preview.ibb.co/doqLs8/Laboratoria_RGB_logo_01.png" alt="Laboratoria_RGB_logo_01">
     </header>
     <section class="navigatingBar hide" id="navigatingBar">
-      <!-- Lista de sedes -->
       <ul>
-        <li class="place show" id="newTab">LIMA</li>
+        <li class="place show" id="sede-lima">LIMA</li>
         <li class="place">SANTIAGO</li>
         <li class="place">CDMX</li>
         <li class="place">GUADALAJARA</li>
-        <li class="place">SAO PAULO</li>
+        <li class="place">AREQUIPA</li>
       </ul>
     </section>
   </section>
   <!-- lista de cohorts -->
-  <aside id="laboratoria2" class="newTab hide">
-    <div>
-      <ul id="listaCohorts"></ul>
+  <section class="second-tab hide" id="laboratoria2">
+    <aside id="menu-sedes" class="menu-sedes">
+      <h2 class="sedes hide" id="sedes">SEDES
+      </h2>
+    </aside>
+    <div class="list-cohorts">
+        <ul id="lista-cohorts" class="li-list"></ul>
+     
     </div>
-  </aside>
+  </section>
   <!-- lista de estudiantes -->
   <div class="list-student">
-    <ul id="usuarios" class='student'></ul>
+    <ul id="list-students" class='student'></ul>
   </div>
-
   <div>
-    <div id="example">
-      </ul>
-    </div>
     <div id='progress' class='progress'></div>
-
-    <script src="data.js"></script>
-    <script src="main.js"></script>
-
+  </div>
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
