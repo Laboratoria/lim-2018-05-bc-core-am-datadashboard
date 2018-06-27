@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-// window.computeUsersStats(users,progress,courses)
-=======
 const urlCohort = "../data/cohorts.json"
 const urlUser = "../data/cohorts/lim-2018-03-pre-core-pw/users.json"
 const urlProgress = "../data/cohorts/lim-2018-03-pre-core-pw/progress.json"
@@ -33,4 +30,3 @@ const getProgress = (id) => {
 // window.computerUsersState(users,progress,courses)
 // id de users=id Progress bote info del progres(for of)
 
->>>>>>> d79832bb4e9b6d53008c5eef4a1cefec810994da

@@ -52,7 +52,7 @@ img {
 #user, #password {
   font-family: 'Open Sans', sans-serif;
   border: 0;
-  border-bottom: 3px solid #eede00;
+  border-bottom: 3px solid #ffe521;
   background: none;
   color: #000;
   display: block;
@@ -75,7 +75,7 @@ img {
 }
 
 #user:hover, #password:hover {
-  border-bottom: 3px solid #d48e0c;
+  border-bottom: 3px solid #ffc421;
 }
 
 #user:focus, #user:active, #password:focus, #password:active {
@@ -84,7 +84,7 @@ img {
 
 /* boton */
 .logging {
-  background-color: #ffc107;
+  background-color: #ffe521;
   border: none;
   border-radius: 5px;
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
@@ -102,7 +102,7 @@ img {
 }
 
 .logging:hover {
-  background-color: #ffa91e;
+  background-color: #f8ce10f6;
 }
 
 /* tabs */
@@ -121,9 +121,8 @@ img {
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 2px 9px 0px #c5c5c5;
   border-bottom-style: solid;
-  border-top-style: solid;
-  border-color: rgb(255, 229, 33);
-  border-width: 10px;
+  border-color: #ffe521;
+  border-width: 5px;
   text-align: center;
   height: 75px;
   width: auto;
@@ -133,6 +132,7 @@ img {
   height: auto;
   margin-left: 0;
   margin-top: 1.5px;
+  margin: auto;
   padding: 1%;
 }
 .welcome {
@@ -141,8 +141,9 @@ img {
   margin: 22px;
 }
 .navigatingBar {
-  background: rgba(1, 0, 0, 0.7);
+  background: rgba(1, 0, 0, 0.4);
   border-radius: 10px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
   margin: auto;
   margin-top: 6%;
   width: 30%;
@@ -166,22 +167,35 @@ img {
 }
 .menu-sedes{
   display:inline-block;
+  background: none;
+  border-right-style: solid;
+  border-color: #ffe521;
+  border-width: 4%;
+  height: 900px;
 }
+
 .sedes {
-  border: solid 10px;
+  background-color: #ffe521;
+  box-shadow: 0px 2px 9px 0px #c5c5c5;
   font-size: 200%;
   list-style-type: none;
   text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 15px;
+  margin-left: 5%;
+}
+.sedes:hover {
+  background-color:  #f8ce10f6;
 }
 .li-list {
-  margin: 5%;
-}
+  padding-bottom: 2.5%;
+  padding-top: 2.5%;
+} 
 /* LISTA DE COHORTS */
 .list-cohorts {
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 70%;
+  width: 80%;
   height: 1420px;
   font-size: 25px;
   display: block;
@@ -192,12 +206,15 @@ img {
 }
 .elem-cohort {
   list-style-type: none;
-  margin-bottom: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-right: 1%;
+  padding-left: 3%;
+
 }
 
 .elem-cohort:hover {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
+  background-color: rgb(86, 248, 154);
 }
 .list-student {
   float: right;

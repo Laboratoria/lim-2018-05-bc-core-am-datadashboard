@@ -16,7 +16,7 @@ btnLogging.addEventListener('click', function () {
   }
 });
 
-// agregar evento a botOn LIMA (aparece lista de cohorts/promociones)
+// agregar evento a boton LIMA (aparece lista de cohorts/promociones)
 const cohort = document.getElementById("sede-lima");
 cohort.addEventListener('click', (event) => {
   event.preventDefault(); 
