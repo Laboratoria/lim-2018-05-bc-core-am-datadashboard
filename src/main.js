@@ -23,10 +23,10 @@ cohort.addEventListener('click', (event) => {
   // funcion para obtener lista de cohorts/promociones
   getData(urlCohort, () => {
     const laboratoria2 = document.getElementById('laboratoria2');
-    const sedes = document.getElementById('sedes');
+    // const sedes = document.getElementsByClassName('sedes');
     laboratoria2.classList.replace('hide', 'show');
     navigatingBar.classList.replace('show', 'hide');
-    sedes.classList.replace('hide', 'show');
+    // sedes.classList.replace('hide', 'show');
     laboratoria2.classList.replace('hide', 'show');
     // for of que recorre array de json cohorts
     for (const element of getCohorts()) {

@@ -61,7 +61,8 @@ img {
   text-align: start;
   padding: 12px 0 14px;
   position: relative;
-  width: 100%; 
+  width: 100%;
+  transition: 0.5s; 
 }
 
 #user {
@@ -99,6 +100,7 @@ img {
   transition: .2s;
   text-align: center;
   width: 45%;
+  transition: 0.3s;
 }
 
 .logging:hover {
@@ -106,9 +108,6 @@ img {
 }
 
 /* PÁGINA DE BIENVENIDA */
-.laboratoria1 {
-  background: pink;
-}
 .laboratoriaBar {
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 2px 9px 0px #c5c5c5;
@@ -117,8 +116,13 @@ img {
   border-width: 5px;
   overflow: hidden; /* Esta propiedad especifica si se debe recortar contenido */
   text-align: center;
-  height: 75px;
+  height: 80px;
   width: 100%;
+}
+.laboratoriaBar2 {
+  position: fixed;
+  height: 70px;
+  margin-top: 0;
 }
 .logo {
   width: 15%;
@@ -126,10 +130,17 @@ img {
   margin-left: 41.5%;
   padding: 1%;
 }
+.laboratoriaBar2 .logo {
+line-height: 70px;
+width: 13%;
+}
 .welcome {
   font-family: 'Open Sans', sans-serif;
   float: right;
   margin: 22px;
+}
+.section-sede{
+  padding-top: 70px;
 }
 .navigatingBar {
   background: rgba(1, 0, 0, 0.4);
@@ -154,6 +165,7 @@ img {
 /* SEGUNDA PAGINA */
 .second-tab {
   float: left;
+  padding-top: 0px;
 }
 .menu-sedes{
   display:inline-block;
@@ -164,38 +176,44 @@ img {
   height: 900px;
   margin-right: 10px;
 }
-.sedes {
+.menu-butom{
   background-color: #ffe521;
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
   font-size: 150%;
   font-family: 'Open Sans', sans-serif;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 55px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 15%;
+  margin-top: 0.5%; 
+  transition: 0.3s;
+  line-height: 60px;
 }
-.sedes:hover {
+.menu-butom:hover {
   background-color:  #fffc3df6;
+}
+#option1{
+  margin-top:4%;
+  border-radius: 13px 13px 0px 0px;
+}
+#option4{
+  border-radius: 0px 0px 13px 13px;
 }
 .li-list {
   padding-bottom: 2.5%;
   padding-top: 2.5%;
+  width: 100%;
 } 
 /* LISTA DE COHORTS */
 .list-cohorts {
   width: 80%;
-  height: 1420px;
+  height: auto;
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   display: block;
   z-index: 2;
   cursor: pointer;
   float: right;
-  margin-top: 5%;
+  line-height: 30px;
 }
 .elem-cohort {
   list-style-type: none;
