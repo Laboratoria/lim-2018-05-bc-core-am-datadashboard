@@ -162,7 +162,7 @@ img {
   border-color: #ffe521;
   border-width: 4%;
   height: 900px;
-  margin-right: 70px;
+  margin-right: 10px;
 }
 .sedes {
   background-color: #ffe521;
@@ -220,7 +220,7 @@ img {
 
 /* estilos para centrar el contenido en el 80% de la página */
 .wrapper {
-  width: 80%;
+  width: 75%;
   margin: auto;
   overflow: hidden;
 }
