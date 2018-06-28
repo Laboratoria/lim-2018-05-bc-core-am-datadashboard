@@ -102,15 +102,7 @@ img {
 }
 
 .logging:hover {
-  background-color: #f8ce10f6;
-}
-
-/* tabs */
-.hide {
-  display: none;
-}
-.show {
-  display: block;
+  background-color: #fffc3df6;
 }
 
 /* PÁGINA DE BIENVENIDA */
@@ -123,16 +115,15 @@ img {
   border-bottom-style: solid;
   border-color: #ffe521;
   border-width: 5px;
+  overflow: hidden; /* Esta propiedad especifica si se debe recortar contenido */
   text-align: center;
   height: 75px;
-  width: auto;
+  width: 100%;
 }
 .logo {
   width: 15%;
   height: auto;
-  margin-left: 0;
-  margin-top: 1.5px;
-  margin: auto;
+  margin-left: 41.5%;
   padding: 1%;
 }
 .welcome {
@@ -163,7 +154,6 @@ img {
 /* SEGUNDA PAGINA */
 .second-tab {
   float: left;
-  margin-top: 2%;
 }
 .menu-sedes{
   display:inline-block;
@@ -172,22 +162,24 @@ img {
   border-color: #ffe521;
   border-width: 4%;
   height: 900px;
+  margin-right: 70px;
 }
-
 .sedes {
   background-color: #ffe521;
-  box-shadow: 0px 2px 9px 0px #c5c5c5;
-  font-size: 200%;
-  list-style-type: none;
-  text-align: center;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+  font-size: 150%;
+  font-family: 'Open Sans', sans-serif;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
-  padding-right: 15px;
-  margin-left: 5%;
+  padding-right: 55px;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 15%;
 }
 .sedes:hover {
-  background-color:  #f8ce10f6;
+  background-color:  #fffc3df6;
 }
 .li-list {
   padding-bottom: 2.5%;
@@ -197,7 +189,8 @@ img {
 .list-cohorts {
   width: 80%;
   height: 1420px;
-  font-size: 25px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
   display: block;
   z-index: 2;
   cursor: pointer;
@@ -210,9 +203,7 @@ img {
   padding-bottom: 1.5%;
   padding-right: 1%;
   padding-left: 3%;
-
 }
-
 .elem-cohort:hover {
   background-color: rgb(86, 248, 154);
 }
@@ -225,4 +216,19 @@ img {
   color: #000;
   font-family: 'Open Sans', sans-serif;
 
+}
+
+/* estilos para centrar el contenido en el 80% de la página */
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* tabs */
+.hide {
+  display: none;
+}
+.show {
+  display: block;
 }
