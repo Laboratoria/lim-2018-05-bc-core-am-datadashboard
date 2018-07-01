@@ -26,6 +26,7 @@ cohort.addEventListener('click', (event) => {
     // const sedes = document.getElementsByClassName('sedes');
     laboratoria2.classList.replace('hide', 'show');
     navigatingBar.classList.replace('show', 'hide');
+   
     // sedes.classList.replace('hide', 'show');
     laboratoria2.classList.replace('hide', 'show');
     // for of que recorre array de json cohorts
