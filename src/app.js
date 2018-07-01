@@ -85,13 +85,14 @@ const listProgress = {
     })
     return object.exercises
   },
-  isNaN:(valor)=>{
-      if(valor !== NaN){
-           return valor;
-      }else{
-          return 0;
-      }
-  },
+  // esta funcion es para el error que te dije pero dejala comentada por que no funciona bien
+  // isNaN:(valor)=>{
+  //     if(valor !== NaN){
+  //          return valor;
+  //     }else{
+  //         return 0;
+  //     }
+  // },
   getReadsById:(id)=>{
     let contadorTotalReads = 0;
     let contadorCompletedReads = 0;
@@ -135,7 +136,7 @@ const listProgress = {
     quizzes.completed = completedQuizzes;
     quizzes.percent = Math.round((completedQuizzes/totalQuizzes)*100);
     quizzes.scoreSum = scoreSumQuizzes;
-    quizzes.scoreAvg = Math.round(isNaN|(scoreSumQuizzes/completedQuizzes))
+    quizzes.scoreAvg = Math.round(scoreSumQuizzes/completedQuizzes);
     return quizzes;
   }
 }

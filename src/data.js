@@ -12,7 +12,7 @@ window.computeUsersStats = (users,progress,courses)=>{
       };
       return usersWithStats
     });
-    //  console.log(listUsers)
+     console.log(listUsers)
 
     return listUsers;
   };
