@@ -1,45 +1,51 @@
 // declarando variable DE BOTON
 const btnLogging = document.getElementById('logging');
+const laboratoriaBar = document.getElementById('laboratoriaBar');
+const navigatingBar = document.getElementById('navigatingBar');
+const loggingIn = document.getElementById('loggingIn');
+const cohorts = document.getElementById("sede-lima");
+const laboratoria2 = document.getElementById('laboratoria2');
 
 // funcion para agregar evento a logging
 btnLogging.addEventListener('click', function () {
-  const laboratoria2 = document.getElementById('laboratoriaBar');
-  const navigatingBar = document.getElementById('navigatingBar');
-  const loggingIn = document.getElementById('loggingIn');
+ 
   // condicional para ingresar con usuario y contraseña
-  if (document.form.password.value == 'CONTRASEÑA' && document.form.user.value == 'USUARIO') {
+  if (true || document.form.password.value == 'CONTRASEÑA' && document.form.user.value == 'USUARIO') {
     loggingIn.classList.replace('show', 'hide');
     navigatingBar.classList.replace('hide', 'show');
-    laboratoria2.classList.replace('hide', 'show');
+    laboratoriaBar.classList.replace('hide', 'show');
   } else {
     alert("Por favor ingrese el nombre de usuario y la contraseña correcta.");
   }
 });
 
+llenarlista=(ulId,classLi,element,html)=>{
+  const list = document.getElementById(ulId);
+  const liCohorts = document.createElement('li');
+  liCohorts.setAttribute('id', element.id);
+  liCohorts.setAttribute('class',classLi)
+  liCohorts.innerHTML = html;
+  list.appendChild(liCohorts);
+}
 // agregar evento a boton LIMA (aparece lista de cohorts/promociones)
-const cohort = document.getElementById("sede-lima");
-cohort.addEventListener('click', (event) => {
+cohorts.addEventListener('click', (event) => {
   event.preventDefault(); 
   // funcion para obtener lista de cohorts/promociones
-  getData(urlCohort, () => {
-    const laboratoria2 = document.getElementById('laboratoria2');
-    // const sedes = document.getElementsByClassName('sedes');
+  ServiceApiRequest(urlCohort,()=>{
     laboratoria2.classList.replace('hide', 'show');
     navigatingBar.classList.replace('show', 'hide');
+<<<<<<< HEAD
    
     // sedes.classList.replace('hide', 'show');
+=======
+>>>>>>> ad0e419732e30565b8640e7d9a1f66e19ecfff76
     laboratoria2.classList.replace('hide', 'show');
     // for of que recorre array de json cohorts
-    for (const element of getCohorts()) {
-      const list = document.getElementById("lista-cohorts");
-      const liCohorts = document.createElement('li');
-      liCohorts.setAttribute('id', element.id);
-      liCohorts.setAttribute('class','elem-cohort')
-      liCohorts.innerHTML = element.id;
-      list.appendChild(liCohorts);
-      const liuser = document.getElementById('lim-2018-03-pre-core-pw')
-      if(liuser == liCohorts){
-        addEventToCohortElem(liuser);
+    listCohort.setCohort(getCohortsUsers())
+    for (const cohort of listCohort.getCohorts()) {  
+      llenarlista("lista-cohorts",'elem-cohort',cohort,cohort.id)
+      if(cohort.id === 'lim-2018-03-pre-core-pw'){
+        addEventToCohortElem(document.getElementById(cohort.id));
       }
     };
   });
@@ -49,14 +55,11 @@ window.addEventToCohortElem = (elem) => {
   elem.addEventListener('click', (event) => {
     event.preventDefault();
     // funcion para recorrer json users(obtener nombres de estudiantes)
-    getData(urlUser, () => {
-      for (const element of getUsers()) {
-        const list = document.getElementById("list-students");
-        const liStudent = document.createElement('li');    
-        liStudent.setAttribute('id', element.id);
-        liStudent.innerHTML = element.name;
-        list.appendChild(liStudent);
-        addEventToUserElem(liStudent);
+    ServiceApiRequest(urlUser,()=>{
+      listUser.setUsers(getCohortsUsers());
+      for (const student of listUser.getUsers()) {
+        llenarlista("list-students","",student,student.name)
+        addEventToUserElem(document.getElementById(student.id));
       }
     })
   })
@@ -66,11 +69,13 @@ window.addEventToUserElem = (elem) => {
   elem.addEventListener('click', () => {
     event.preventDefault();
     // funcion para obtener porcentaje total de estudiantes
-    getData(urlProgress,  () =>{
+    ServiceApiRequest(urlProgress,()=>{
       const id = elem.getAttribute('id');
-      const data = getProgress(id);
-      if (data) {
-        console.log(data)
+      const data = listProgress;
+      listProgress.setProgres(getProgress());
+      if (listProgress) {
+        // console.log(data)
+        computeUsersStats(listUser.getUsers(),listProgress.getProgress(),listCohort.getCourses());
         const elemnnto = document.getElementsByClassName("elimina");
         if(elemnnto){
       }
