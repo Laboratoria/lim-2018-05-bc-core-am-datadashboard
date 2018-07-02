@@ -28,17 +28,12 @@ llenarlista=(ulId,classLi,element,html)=>{
   list.appendChild(liCohorts);
 }
 // agregar evento a boton LIMA (aparece lista de cohorts/promociones)
-cohorts.addEventListener('click', (event) => {
+cohorts.addEventListener('click', (eServiceApiRequestvent) => {
   event.preventDefault(); 
   // funcion para obtener lista de cohorts/promociones
   ServiceApiRequest(urlCohort,()=>{
     laboratoria2.classList.replace('hide', 'show');
     navigatingBar.classList.replace('show', 'hide');
-<<<<<<< HEAD
-   
-    // sedes.classList.replace('hide', 'show');
-=======
->>>>>>> ad0e419732e30565b8640e7d9a1f66e19ecfff76
     laboratoria2.classList.replace('hide', 'show');
     // for of que recorre array de json cohorts
     listCohort.setCohort(getCohortsUsers())
